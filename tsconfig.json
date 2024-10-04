@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "rootDir": "./app",
+        "module": "CommonJS",
+        "target": "ES2023",
+        "lib": [
+            "ES2023"
+        ],
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "baseUrl": "./",
+        "resolveJsonModule": true, // Enable importing JSON modules
+        "isolatedModules": true // Ensure all files are treated as isolated modules
+    },
+    "include": [
+        "app/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
